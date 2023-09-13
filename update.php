@@ -4,8 +4,8 @@ require_once "zip.php";
 define('UPDATER_PATH', str_replace('\\','/',dirname(__FILE__)).'/');
 print UPDATER_PATH;
 //exit();
-$url = "https://github.com/kinoppol/stdac/archive/refs/heads/master.zip";
-$zip_file = UPDATER_PATH."/update/stdac.zip";
+$url = "https://github.com/kinoppol/ota/archive/refs/heads/main.zip";
+$zip_file = UPDATER_PATH."/update/ota.zip";
 
 $zip_resource = fopen($zip_file, "w");
 
@@ -39,5 +39,5 @@ if($zip->open($zip_file) != "true")
  exit();
 } 
 
-$zip->extractSubdirTo($extractPath,'stdac-master/');
+$zip->extractSubdirTo($extractPath,'ota-master/');
 $zip->close();
