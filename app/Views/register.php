@@ -117,17 +117,19 @@ $form=array(
                 print " สังกัด ".$orgs[$registerData->org_code];
                 print " สถานะ ";
             }
-            switch($registerData->register_status){
+            $status=empty($registerData->register_status)?'null':$registerData->register_status;
+            switch($status){
                 case 'request' : print '<button class="btn btn-primary">รอการอนุมัติ</button>'; break;
                 case 'disapproval' : print '<button class="btn btn-danger">ปฏิเสธการลงทะเบียน</button> โปรดทำการลงทะเบียนใหม่'; break;
                 case 'banned' : print '<button class="btn btn-default">ห้ามลงทะเบียน</button>'; break;
                 case 'approved' : print '<a href="'.site_url('public/user/logout').'" class="btn btn-success">อนุมัติแล้ว</a> คลิกที่ปุ่มเพื่อเข้าสู่ระบบใหม่'; break;
+                default : print ' '; break;
             }
         ?>
         </div>
     </div>
 </div>
 <?php
-if($registerData->register_status!='banned'&&$registerData->register_status!='approved')
+if($status!='banned'&&$status!='approved')
 print genForm($form);
 ?>

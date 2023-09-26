@@ -122,7 +122,7 @@ if(!$debug){
                         <ul class="dropdown-menu">
                             <li class="header">แจ้งเตือน</li>
                             <li class="body">
-                                <?php print $notification;?>
+                                <?php print empty($notification)?'':$notification; ?>
                             </li>
                             <li class="footer">
                                 <a href="javascript:void(0);">View All Notifications</a>
@@ -140,7 +140,7 @@ if(!$debug){
                             <li class="header">TASKS</li>
                             <li class="body">
                                 
-                        <?php print $task;?>
+                        <?php print empty($task)?'':$task; ?>
                             </li>
                             <li class="footer">
                                 <a href="javascript:void(0);">View All Tasks</a>
@@ -188,7 +188,7 @@ if(!$debug){
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
-                <b>Version: </b> <?php print VERSION; ?> &copy; <?php print date('Y'); ?> <a href="https://www.bncc.ac.th" target="_blank">วิทยาลัยพณิชยการบางนา</a>
+                <b>Version: </b> <?php print VERSION; ?> &copy; <?php print date('Y'); ?> <a href="http://www.rvc.ac.th" target="_blank"><br>วิทยาลัยอาชีวศึกษาร้อยเอ็ด</a>
                 </div>
                 <div class="version">
                 <a href="http://www.vec.go.th" target="_blank">สำนักงานคณะกรรมการการอาชีวศึกษา</a> 
@@ -314,15 +314,15 @@ if(!$debug){
                         'about'=>array(
                             'title'=>'เกี่ยวกับระบบ',
                             'content'=>'<h4>'.SYSTEMNAME.'</h4>
-                            Version: '.VERSION.' &copy;'.date('Y').' วิทยาลัยพณิชยการบางนา สำนักงานคณะกรรมการการอาชีวศึกษา
+                            Version: '.VERSION.' &copy;'.date('Y').' วิทยาลัยอาชีวศึกษาร้อยเอ็ด สำนักงานคณะกรรมการการอาชีวศึกษา
                             <br><br>
-                            อำนวยการพัฒนาโดย <b>วิทยาลัยพณิชยการบางนา</b> <a href="https://www.bncc.ac.th/">https://www.bncc.ac.th</a><br>
+                            อำนวยการพัฒนาโดย <b>วิทยาลัยอาชีวศึกษาร้อยเอ็ด</b> <a href="https://www.bncc.ac.th/">http://www.rvc.ac.th</a><br>
                             ',
                         ),
                         'developer'=>array(
                             'title'=>'ผู้พัฒนาระบบ',
                             'content'=>'<h4>'.SYSTEMNAME.'</h4>
-                            พัฒนาระบบโดย <b>นายนพพล อินศร</b> ครูวิทยาลัยพณิชยการบางนา<br>
+                            พัฒนาระบบโดย <b>นายนพพล อินศร</b> ครูวิทยาลัยอาชีวศึกษาร้อยเอ็ด<br>
                             <a href="mailto:noppol.ins@bncc.ac.th">noppol.ins@bncc.ac.th</a><br>
                             โทร <a href="tel:+66919968266">09-1996-8266</a>',
                         ),

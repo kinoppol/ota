@@ -138,11 +138,12 @@ class User extends BaseController
 
 		$registerData=$userModel->getRegister(current_user('user_id'));
 		//print "XXX".current_user('user_id');
-		$data=array(
-			'registerData'=>$registerData[0],
-			'schools'=>$schools,
-			'institutes'=>$institute,
-		);
+			$data=array(
+				'registerData'=>count($registerData)>0?$registerData[0]:'',
+				'schools'=>$schools,
+				'institutes'=>$institute,
+			);
+
 		$data=array(
 			'title'=>'ลงทะเบียนผู้ใช้งาน',
 			'systemName'=>'ระบบฐานข้อมูลความร่วมมือ',

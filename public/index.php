@@ -2,7 +2,7 @@
 ob_start();
 session_start();
 define('SYSTEMNAME','ระบบประเมินศูนย์บ่มเพาะออนไลน์');
-define('VERSION','21.06.01');
+define('VERSION','23.09.26');
 ini_set('memory_limit', '512M');
 $_SESSION['FOOTSCRIPT']='';
 $_SESSION['FOOTSYSTEM']='';

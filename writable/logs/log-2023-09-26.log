@@ -1,0 +1,286 @@
+ERROR - 2023-09-26 22:14:18 --> Table 'ota.ota_userdata' doesn't exist
+CRITICAL - 2023-09-26 22:14:18 --> Table 'ota.ota_userdata' doesn't exist
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(2049): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(66): App\Models\UserModel->checkEmail('noppol.ins@gmai...')
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->checkGoogle()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:15:31 --> Unknown column 'last_login' in 'field list'
+CRITICAL - 2023-09-26 22:15:31 --> Unknown column 'last_login' in 'field list'
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `ota_use...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ota_use...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ota_use...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `ota_use...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\UserModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(70): App\Models\UserModel->updateUser('noppol.ins@gmai...', Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->checkGoogle()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:16:34 --> Unknown column 'picture' in 'field list'
+CRITICAL - 2023-09-26 22:16:34 --> Unknown column 'picture' in 'field list'
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `ota_use...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ota_use...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ota_use...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `ota_use...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\UserModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(89): App\Models\UserModel->updateUser('noppol.ins@gmai...', Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->checkGoogle()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:17:24 --> Table 'ota.ota_mission' doesn't exist
+CRITICAL - 2023-09-26 22:17:24 --> Table 'ota.ota_mission' doesn't exist
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\MissionModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ota\app\Controllers\Mission.php(14): App\Models\MissionModel->getMission(Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\Mission->list()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:21:20 --> Table 'ota.ota_indicator' doesn't exist
+CRITICAL - 2023-09-26 22:21:20 --> Table 'ota.ota_indicator' doesn't exist
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\IndicatorModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ota\app\Controllers\Mission.php(108): App\Models\IndicatorModel->getIndicator(Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\Mission->indicatorList('1')
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:24:15 --> Unknown column 'score_type' in 'field list'
+CRITICAL - 2023-09-26 22:24:15 --> Unknown column 'score_type' in 'field list'
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ot...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ot...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ot...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ot...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\IndicatorModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ota\app\Controllers\Mission.php(169): App\Models\IndicatorModel->addIndicator(Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\Mission->indicatorSave()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:30:01 --> Table 'ota.ota_user_register' doesn't exist
+CRITICAL - 2023-09-26 22:30:01 --> Table 'ota.ota_user_register' doesn't exist
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\UserModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ota\app\Controllers\Admin.php(31): App\Models\UserModel->getRegister()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\Admin->userManage()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:39:23 --> Table 'ota.ota_school' doesn't exist
+CRITICAL - 2023-09-26 22:39:23 --> Table 'ota.ota_school' doesn't exist
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\OrgModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(136): App\Models\OrgModel->getSchool()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:41:05 --> Table 'ota.ota_data_institute' doesn't exist
+CRITICAL - 2023-09-26 22:41:05 --> Table 'ota.ota_data_institute' doesn't exist
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\OrgModel.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(137): App\Models\OrgModel->getInstitute()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 22:41:53 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ota\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 142, Array)
+#1 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#2 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-26 22:44:21 --> Undefined variable: schools
+#0 C:\xampp\htdocs\ota\app\Views\register.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(155): view('register', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:46:22 --> Trying to get property 'register_status' of non-object
+#0 C:\xampp\htdocs\ota\app\Views\register.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(151): view('register', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:47:45 --> Trying to get property 'register_status' of non-object
+#0 C:\xampp\htdocs\ota\app\Views\register.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(151): view('register', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:48:08 --> Trying to get property 'register_status' of non-object
+#0 C:\xampp\htdocs\ota\app\Views\register.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(151): view('register', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:48:09 --> Trying to get property 'register_status' of non-object
+#0 C:\xampp\htdocs\ota\app\Views\register.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(151): view('register', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:48:33 --> Trying to get property 'register_status' of non-object
+#0 C:\xampp\htdocs\ota\app\Views\register.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(151): view('register', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:50:12 --> Trying to get property 'register_status' of non-object
+#0 C:\xampp\htdocs\ota\app\Views\register.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 133, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(151): view('register', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:50:44 --> Undefined variable: notification
+#0 C:\xampp\htdocs\ota\app\Views\_main.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('_main', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(153): view('_main', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:50:48 --> Undefined variable: notification
+#0 C:\xampp\htdocs\ota\app\Views\_main.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('_main', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(153): view('_main', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 22:51:51 --> Undefined variable: task
+#0 C:\xampp\htdocs\ota\app\Views\_main.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\ota\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ota\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ota\system\Common.php(1250): CodeIgniter\View\View->render('_main', Array, true)
+#4 C:\xampp\htdocs\ota\app\Controllers\User.php(153): view('_main', Array)
+#5 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-26 22:56:22 --> Unknown column 'org_code' in 'field list'
+CRITICAL - 2023-09-26 22:56:22 --> Unknown column 'org_code' in 'field list'
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `o...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `o...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `o...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `o...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\UserModel.php(60): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(122): App\Models\UserModel->register(Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:56:51 --> Unknown column 'position' in 'field list'
+CRITICAL - 2023-09-26 22:56:51 --> Unknown column 'position' in 'field list'
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `ota_use...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ota_use...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ota_use...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `ota_use...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\UserModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(131): App\Models\UserModel->updateUser('noppol@rvc.ac.t...', Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:57:09 --> Unknown column 'position' in 'field list'
+CRITICAL - 2023-09-26 22:57:09 --> Unknown column 'position' in 'field list'
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `ota_use...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ota_use...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ota_use...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `ota_use...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\UserModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(131): App\Models\UserModel->updateUser('noppol@rvc.ac.t...', Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-26 22:57:58 --> Unknown column 'tel' in 'field list'
+CRITICAL - 2023-09-26 22:57:58 --> Unknown column 'tel' in 'field list'
+#0 C:\xampp\htdocs\ota\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `ota_use...')
+#1 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ota_use...')
+#2 C:\xampp\htdocs\ota\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ota_use...')
+#3 C:\xampp\htdocs\ota\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `ota_use...', Array, false)
+#4 C:\xampp\htdocs\ota\app\Models\UserModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ota\app\Controllers\User.php(131): App\Models\UserModel->updateUser('noppol@rvc.ac.t...', Array)
+#6 C:\xampp\htdocs\ota\system\CodeIgniter.php(948): App\Controllers\User->register()
+#7 C:\xampp\htdocs\ota\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ota\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ota\public\index.php(60): CodeIgniter\CodeIgniter->run()
+#10 {main}
