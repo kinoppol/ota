@@ -1,0 +1,9 @@
+CRITICAL - 2021-06-08 17:59:20 --> syntax error, unexpected ''ชื่อตัวบ่�' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('indicatorList', Array, true)
+#2 /Users/mac/development/sites/oes/app/Controllers/Mission.php(120): view('indicatorList', Array)
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Mission->indicatorList('4')
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/oes/public/index.php(60): CodeIgniter\CodeIgniter->run()
+#7 {main}

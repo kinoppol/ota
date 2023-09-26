@@ -1,0 +1,55 @@
+<?php
+helper('form');
+    $data=array(
+        array(
+           'label'=>'ชื่อภารกิจการประเมิน',
+           'type'=>'text',
+           'id'=>'subject',
+           'def'=>isset($mission->subject)?$mission->subject:'',
+           'required'=>true,
+            ),  
+         array(
+            'type'=>'hidden',
+            'id'=>'id',
+            'def'=>isset($mission->id)?$mission->id:'',
+            'disabled'=>isset($mission->id)?false:true,
+            ),
+        array(
+            'label'=>'วันที่เริ่มดำเนินการ',
+            'type'=>'date',
+            'id'=>'start_date',
+            'def'=>isset($mission->start_date)?$mission->start_date:date('Y-m-d'),
+        ),
+        array(
+            'label'=>'วันที่สิ้นสุดภารกิจ',
+            'type'=>'date',
+            'id'=>'end_date',
+            'def'=>isset($mission->end_date)?$mission->end_date:date('Y-m-d'),
+        ),
+        array(
+            'label'=>'วันที่เริ่มประเมิน',
+            'type'=>'date',
+            'id'=>'eva_start_date',
+            'def'=>isset($mission->eva_start_date)?$mission->eva_start_date:date('Y-m-d'),
+        ),
+        array(
+            'label'=>'วันที่สิ้นสุดการประเมิน',
+            'type'=>'date',
+            'id'=>'eva_end_date',
+            'def'=>isset($mission->eva_end_date)?$mission->eva_end_date:date('Y-m-d'),
+        ),
+         array(
+             'label'=>'บันทึกข้อมูล',
+             'type'=>'submit',
+         ),
+    );
+
+    $form=array(
+        'formName'=>'ข้อมูลภารกิจการประเมิน',
+        'inputs'=>$data,
+        'action'=>site_url('public/mission/save'),
+        'method'=>'post',
+        'enctype'=>'multipart/form-data',
+    );
+    
+    print genForm($form);

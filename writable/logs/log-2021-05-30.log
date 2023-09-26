@@ -1,0 +1,102 @@
+CRITICAL - 2021-05-30 00:05:01 --> Undefined index: mou
+#0 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 118, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->save()
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:05:33 --> move_uploaded_file(/Users/mac/development/sites/ocs/public/../docs/mou/9651.pdf): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', '/Users/mac/deve...', 122, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(122): move_uploaded_file('/private/var/tm...', '/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->save()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-30 00:06:19 --> Call to undefined function App\Controllers\updateMou()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->save()
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 00:19:29 --> Undefined variable: meettingData
+#0 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(471): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 471, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewPicture('9651')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:20:05 --> Undefined variable: meettingID
+#0 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(473): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 473, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewPicture('9651')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:22:41 --> Call to undefined function App\Controllers\help()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewPicture('9651')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 00:27:50 --> Call to undefined function App\Controllers\uploadPic()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->save()
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 00:38:33 --> Undefined variable: id
+#0 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(500): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 500, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->delMouPicture('9651', '60b27ad5a0ca0_1...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-30 00:38:46 --> Unknown column 'picture' in 'field list'
+CRITICAL - 2021-05-30 00:38:46 --> Unknown column 'picture' in 'field list'
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('UPDATE `ocs_mou...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ocs_mou...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ocs_mou...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `ocs_mou...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(111): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(516): App\Models\MouModel->updateMou('9651', Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->delMouPicture('9651', '60b27ad5a0ca0_1...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-30 00:55:21 --> unlink(/Users/mac/development/sites/ocs/images/mou/): Operation not permitted
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/Users/m...', '/Users/mac/deve...', 508, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(508): unlink('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->delete('9654')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-30 00:56:20 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/MouModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 22, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(500): App\Models\MouModel->getMouData('9654')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->delete('9654')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-30 00:58:27 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/MouModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 22, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(474): App\Models\MouModel->getMouData('9652')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewPicture('9652')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-30 19:27:05 --> syntax error, unexpected '$'
+#0 /Users/mac/development/sites/ocs/app/Views/businessDetail.php(3): helper(Array)
+#1 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('businessDetail', Array, true)
+#4 /Users/mac/development/sites/ocs/app/Controllers/Business.php(48): view('businessDetail', Array)
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->add()
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#9 {main}

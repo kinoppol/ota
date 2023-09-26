@@ -1,0 +1,721 @@
+CRITICAL - 2021-05-23 13:08:36 --> Undefined variable: title
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 6, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(26): orgYearFilter()
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 13:58:17 --> Call to undefined function genInputSelect()
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): orgYearFilter(Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 13:58:30 --> Undefined variable: org
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 60, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): orgYearFilter(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 13:58:41 --> Undefined index: label
+#0 /Users/mac/development/sites/ocs/app/Helpers/form_helper.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 123, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(60): genInput_select(Array)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): orgYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 13:59:09 --> Undefined index: def
+#0 /Users/mac/development/sites/ocs/app/Helpers/form_helper.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 127, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(61): genInput_select(Array)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): orgYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 14:08:31 --> syntax error, unexpected ';', expecting '('
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(11): helper(Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 14:09:00 --> Undefined index: lebel
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 48, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): orgYearFilter(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 14:23:16 --> Undefined variable: org_id
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 35, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(41): orgArr()
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): orgYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 14:42:42 --> Undefined index: org_ids
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 41, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): orgYearFilter(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 14:52:59 --> Undefined index: org_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 17, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 14:53:43 --> Undefined index: org_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 18, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 14:54:01 --> Call to undefined function App\Controllers\sset()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-23 14:54:19 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 36, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(81): App\Models\GovModel->getGovData(false)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(24): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 15:28:39 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(14): helper(Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 15:29:04 --> Undefined index: all
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(18): org_name('all')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 15:35:55 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 36, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(81): App\Models\GovModel->getGovData('all')
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(28): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 16:45:12 --> Undefined offset: 8440
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 86, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 16:47:00 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-23 16:47:17 --> Cannot use object of type stdClass as array
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-23 17:10:29 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-23 17:12:19 --> Invalid argument supplied for foreach()
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/mac/deve...', 48, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(41): orgArr(false)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(37): orgYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 17:12:55 --> Undefined index: สำนักงานคณะกรรมการการอาชีวศึกษา
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 49, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(41): orgArr(false)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(37): orgYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 17:16:19 --> preg_match(): Compilation failed: regular expression is too large at offset 38180
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'school_id in (\xE0...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(58): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 17:16:26 --> preg_match(): Compilation failed: regular expression is too large at offset 38180
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'school_id in (\xE0...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(58): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 17:16:34 --> preg_match(): Compilation failed: regular expression is too large at offset 38180
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'school_id in (\xE0...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(58): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 17:16:58 --> preg_match(): Compilation failed: regular expression is too large at offset 38180
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'school_id in (\xE0...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(58): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 17:17:07 --> preg_match(): Compilation failed: regular expression is too large at offset 38180
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'school_id in (\xE0...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(58): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 17:18:58 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(14): helper(Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 17:19:02 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(14): helper(Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 17:19:44 --> preg_match(): Compilation failed: regular expression is too large at offset 38180
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'school_id in (\xE0...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(58): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 17:41:23 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/OrgModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 38, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(82): App\Models\OrgModel->schoolData('')
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 17:41:43 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/OrgModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 38, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(82): App\Models\OrgModel->schoolData('')
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 17:42:32 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/OrgModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 38, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(82): App\Models\OrgModel->schoolData('')
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 17:43:19 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/OrgModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 38, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(82): App\Models\OrgModel->schoolData('')
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 17:44:54 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/OrgModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 38, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(82): App\Models\OrgModel->schoolData('')
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 17:46:34 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:47:58 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:48:57 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:50:21 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:52:39 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:52:51 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:53:10 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:53:24 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:54:10 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:54:13 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:54:50 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:55:08 --> Trying to get property '_name' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 89, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(30): signBox(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 17:59:18 --> Undefined index: org_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 188, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 18:10:15 --> Undefined index: org_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportGov.php(440): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 440, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportGov->gov_09('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGov))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 18:12:18 --> Undefined variable: org_ids
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(370): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 370, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_03('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 18:17:43 --> Undefined variable: ogr_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 392, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_03('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 18:23:03 --> Undefined index: org_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportGov.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 17, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportGov->gov_01('\xE0\xB8\xAA\xE0\xB8\xA3\xE0\xB8\xB8\xE0\xB8\x9B\xE0\xB8\xA3...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGov))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 18:23:10 --> Undefined index: org_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportGov.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 17, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportGov->gov_01('\xE0\xB8\xAA\xE0\xB8\xA3\xE0\xB8\xB8\xE0\xB8\x9B\xE0\xB8\xA3...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGov))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 18:24:45 --> Undefined index: org_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/ReportGov.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 18, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportGov->gov_01('\xE0\xB8\xAA\xE0\xB8\xA3\xE0\xB8\xB8\xE0\xB8\x9B\xE0\xB8\xA3...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGov))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 18:25:31 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 36, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(81): App\Models\GovModel->getGovData(false)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportGov.php(24): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportGov->gov_01('\xE0\xB8\xAA\xE0\xB8\xA3\xE0\xB8\xB8\xE0\xB8\x9B\xE0\xB8\xA3...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGov))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 18:46:00 --> Illegal offset type
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', '/Users/mac/deve...', 61, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(84): govArr(Array)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportGov.php(31): govYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportGov->gov_01('\xE0\xB8\xAA\xE0\xB8\xA3\xE0\xB8\xB8\xE0\xB8\x9B\xE0\xB8\xA3...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGov))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 18:46:38 --> Illegal offset type
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', '/Users/mac/deve...', 61, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(84): govArr(Array)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportGov.php(31): govYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportGov->gov_01('\xE0\xB8\xAA\xE0\xB8\xA3\xE0\xB8\xB8\xE0\xB8\x9B\xE0\xB8\xA3...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGov))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 18:57:35 --> Undefined variable: dov_ids
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 61, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(84): govArr(Array)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportGov.php(31): govYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportGov->gov_01('\xE0\xB8\xAA\xE0\xB8\xA3\xE0\xB8\xB8\xE0\xB8\x9B\xE0\xB8\xA3...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGov))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 19:43:40 --> Cannot redeclare App\Models\OrgModel::schoolData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-23 19:44:37 --> Cannot redeclare App\Models\OrgModel::schoolData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-23 19:51:12 --> Undefined variable: province
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 53, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(41): orgArr(false)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(37): orgYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 19:51:56 --> Undefined variable: school_id
+#0 /Users/mac/development/sites/ocs/app/Models/OrgModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 57, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(49): App\Models\OrgModel->getProvince()
+#2 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(41): orgArr(false)
+#3 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(37): orgYearFilter(Array)
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-23 19:52:17 --> Undefined variable: zone
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 56, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(41): orgArr(false)
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(37): orgYearFilter(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 20:17:28 --> Trying to get property 'school_id' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 178, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(28): schoolInZone('5')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:18:08 --> Trying to get property 'school_id' of non-object
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 178, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(28): schoolInZone('5')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:19:30 --> Illegal string offset 'school_id'
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Users/mac/deve...', 178, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(28): schoolInZone('5')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:21:26 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 36, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/report_helper.php(124): App\Models\GovModel->getGovData('z5')
+#2 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(38): signBox(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_01('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 20:40:39 --> Undefined index: z4
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(347): org_name('z4')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_03('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:41:32 --> Undefined index: z4
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(347): org_name('z4')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_03('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:42:42 --> Undefined index: z2
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(347): org_name('z2')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_03('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:43:06 --> Undefined index: z1
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(347): org_name('z1')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_03('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:43:24 --> Undefined index: z3
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(201): org_name('z3')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:43:32 --> Undefined index: z4
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(201): org_name('z4')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:44:40 --> Undefined index: z4
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(201): org_name('z4')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:44:46 --> Undefined index: z4
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(201): org_name('z4')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:44:54 --> Undefined index: z4
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(201): org_name('z4')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:45:13 --> Undefined index: z4
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(201): org_name('z4')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 20:48:54 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-05-23 20:48:54 --> Illegal parameter data types varchar and row for operation '='
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(248): App\Models\MouModel->curriculumGet(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-23 20:51:07 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-05-23 20:51:07 --> Illegal parameter data types varchar and row for operation '='
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(248): App\Models\MouModel->curriculumGet(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 20:52:00 --> Undefined index: z4
+#0 /Users/mac/development/sites/ocs/app/Helpers/org_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(201): org_name('z4')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 20:52:31 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-05-23 20:52:31 --> Illegal parameter data types varchar and row for operation '='
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(248): App\Models\MouModel->curriculumGet(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-23 20:53:10 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-05-23 20:53:10 --> Illegal parameter data types varchar and row for operation '='
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(248): App\Models\MouModel->curriculumGet(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-23 20:56:26 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-05-23 20:56:26 --> Illegal parameter data types varchar and row for operation '='
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(248): App\Models\MouModel->curriculumGet(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-23 20:57:02 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-05-23 20:57:02 --> Illegal parameter data types varchar and row for operation '='
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(248): App\Models\MouModel->curriculumGet(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-23 20:57:12 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-05-23 20:57:12 --> Illegal parameter data types varchar and row for operation '='
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/ReportOrg.php(248): App\Models\MouModel->curriculumGet(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\ReportOrg->school_02('\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA2\xE0\xB8\x87\xE0\xB8\xB2...')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportOrg))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}

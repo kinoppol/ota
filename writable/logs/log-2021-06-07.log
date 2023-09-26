@@ -1,0 +1,158 @@
+CRITICAL - 2021-06-07 12:00:04 --> syntax error, unexpected ','
+#0 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(229): helper(Array)
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 12:00:20 --> Use of undefined constant trye - assumed 'trye' (this will throw an Error in a future version of PHP)
+#0 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Users/mac/deve...', 242, Array)
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 12:00:56 --> Undefined variable: pic
+#0 /Users/mac/development/sites/oes/app/Helpers/pdf_helper.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 17, Array)
+#1 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(253): uploadPDF('attach_file', '/Users/mac/deve...')
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-07 12:01:19 --> Undefined index: file_name
+#0 /Users/mac/development/sites/oes/app/Helpers/pdf_helper.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 22, Array)
+#1 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(253): uploadPDF('attach_file', '/Users/mac/deve...')
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-07 12:01:33 --> Unsupported operand types
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:03:33 --> Unsupported operand types
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:10:01 --> Unsupported operand types
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:10:06 --> Unsupported operand types
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:11:01 --> Unsupported operand types
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:11:07 --> Unsupported operand types
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:11:28 --> Unsupported operand types
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:12:01 --> Unsupported operand types
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:13:04 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/mac/deve...', 381, Array)
+#1 /Users/mac/development/sites/oes/system/Database/Query.php(381): implode(',', Array)
+#2 /Users/mac/development/sites/oes/system/Database/Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `oes_sub...', Array)
+#3 /Users/mac/development/sites/oes/system/Database/Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#4 /Users/mac/development/sites/oes/system/Database/BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#5 /Users/mac/development/sites/oes/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `oes_sub...', Array, false)
+#6 /Users/mac/development/sites/oes/app/Models/EvaluateModel.php(19): CodeIgniter\Database\BaseBuilder->update(Array)
+#7 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(258): App\Models\EvaluateModel->updateSubmission('1', Array)
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#9 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#10 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 12:13:09 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/mac/deve...', 381, Array)
+#1 /Users/mac/development/sites/oes/system/Database/Query.php(381): implode(',', Array)
+#2 /Users/mac/development/sites/oes/system/Database/Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `oes_sub...', Array)
+#3 /Users/mac/development/sites/oes/system/Database/Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#4 /Users/mac/development/sites/oes/system/Database/BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#5 /Users/mac/development/sites/oes/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `oes_sub...', Array, false)
+#6 /Users/mac/development/sites/oes/app/Models/EvaluateModel.php(19): CodeIgniter\Database\BaseBuilder->update(Array)
+#7 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(258): App\Models\EvaluateModel->updateSubmission('1', Array)
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#9 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#10 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 12:13:49 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/mac/deve...', 381, Array)
+#1 /Users/mac/development/sites/oes/system/Database/Query.php(381): implode(',', Array)
+#2 /Users/mac/development/sites/oes/system/Database/Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `oes_sub...', Array)
+#3 /Users/mac/development/sites/oes/system/Database/Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#4 /Users/mac/development/sites/oes/system/Database/BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#5 /Users/mac/development/sites/oes/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `oes_sub...', Array, false)
+#6 /Users/mac/development/sites/oes/app/Models/EvaluateModel.php(19): CodeIgniter\Database\BaseBuilder->update(Array)
+#7 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(258): App\Models\EvaluateModel->updateSubmission('1', Array)
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#9 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#10 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 12:29:04 --> Invalid file: galleryBook.php
+#0 /Users/mac/development/sites/oes/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('galleryBook.php')
+#1 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('galleryBook', Array, true)
+#2 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(376): view('galleryBook', Array)
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->attach_file('14')
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-07 12:29:27 --> Undefined variable: pictures
+#0 /Users/mac/development/sites/oes/app/Views/galleryBook.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 19, Array)
+#1 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('galleryBook', Array, true)
+#4 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(376): view('galleryBook', Array)
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->attach_file('14')
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-07 12:30:59 --> Undefined variable: fileData
+#0 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(360): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 360, Array)
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->attach_file('14')
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 12:33:03 --> Undefined variable: pic
+#0 /Users/mac/development/sites/oes/app/Views/galleryBook.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 26, Array)
+#1 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('galleryBook', Array, true)
+#4 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(377): view('galleryBook', Array)
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->attach_file('14')
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#9 {main}

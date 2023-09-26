@@ -1,0 +1,580 @@
+CRITICAL - 2021-05-29 12:55:46 --> syntax error, unexpected '.'
+#0 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('listBusiness', Array, true)
+#2 /Users/mac/development/sites/ocs/app/Controllers/Business.php(32): view('listBusiness', Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->list()
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 12:55:54 --> syntax error, unexpected '.'
+#0 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('listBusiness', Array, true)
+#2 /Users/mac/development/sites/ocs/app/Controllers/Business.php(32): view('listBusiness', Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->list()
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 12:55:58 --> syntax error, unexpected '.'
+#0 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('listBusiness', Array, true)
+#2 /Users/mac/development/sites/ocs/app/Controllers/Business.php(32): view('listBusiness', Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->list()
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 13:17:11 --> syntax error, unexpected ')'
+#0 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('listBusiness', Array, true)
+#2 /Users/mac/development/sites/ocs/app/Controllers/Business.php(32): view('listBusiness', Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->list()
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 13:32:47 --> Use of undefined constant pictures - assumed 'pictures' (this will throw an Error in a future version of PHP)
+#0 /Users/mac/development/sites/ocs/app/Controllers/Business.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Users/mac/deve...', 111, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->picture('47950')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 14:07:54 --> syntax error, unexpected ''formName'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('businessDetail', Array, true)
+#2 /Users/mac/development/sites/ocs/app/Controllers/Business.php(48): view('businessDetail', Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->add()
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 15:45:18 --> Call to undefined function App\Controllers\uploadPic()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-29 15:46:06 --> Call to undefined function App\Controllers\uploadPic()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-29 15:47:08 --> Call to undefined function App\Controllers\uploadPic()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-29 15:47:26 --> Call to undefined function App\Controllers\uploadPic()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-29 15:48:03 --> Illegal offset type
+#0 /Users/mac/development/sites/ocs/app/Helpers/image_helper.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', '/Users/mac/deve...', 66, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Business.php(79): uploadPic(Array, '/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 15:49:12 --> Invalid argument supplied for foreach()
+#0 /Users/mac/development/sites/ocs/app/Helpers/image_helper.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/mac/deve...', 68, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Business.php(79): uploadPic('picture', '/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 15:57:40 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 /Users/mac/development/sites/ocs/app/Controllers/Business.php(69): helper(Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 15:58:44 --> Undefined index: type
+#0 /Users/mac/development/sites/ocs/app/Helpers/image_helper.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 78, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Business.php(78): uploadPic('picture', '/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 16:03:34 --> Undefined property: stdClass::$pictures
+#0 /Users/mac/development/sites/ocs/app/Controllers/Business.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Users/mac/deve...', 127, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->picture('48444')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 16:12:48 --> Call to undefined function App\Controllers\getBusiness()
+#0 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-05-29 16:13:13 --> Operand should contain 1 column(s)
+CRITICAL - 2021-05-29 16:13:13 --> Operand should contain 1 column(s)
+#0 /Users/mac/development/sites/ocs/system/Database/MySQLi/Connection.php(329): mysqli->query('UPDATE `ocs_bus...')
+#1 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ocs_bus...')
+#2 /Users/mac/development/sites/ocs/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ocs_bus...')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `ocs_bus...', Array, false)
+#4 /Users/mac/development/sites/ocs/app/Models/BusinessModel.php(62): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Users/mac/development/sites/ocs/app/Controllers/Business.php(87): App\Models\BusinessModel->businessUpdate('48444', Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 16:23:22 --> Undefined index: id
+#0 /Users/mac/development/sites/ocs/app/Helpers/form_helper.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/ocs/app/Views/editGov.php(99): genForm(Array)
+#2 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#3 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('editGov', Array, true)
+#5 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(100): view('editGov', Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->detail()
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 16:35:59 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Controllers/Business.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 76, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->saveBusiness()
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 17:44:27 --> Call to undefined function genModal()
+#0 /Users/mac/development/sites/ocs/system/View/View.php(220): include()
+#1 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('gallery', Array, true)
+#3 /Users/mac/development/sites/ocs/app/Controllers/Business.php(145): view('gallery', Array)
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->picture('48444')
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 19:53:24 --> syntax error, unexpected ';', expecting ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('business/pictur...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('business/pictur...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 19:53:40 --> syntax error, unexpected ';', expecting ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('business/pictur...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('business/pictur...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 19:55:17 --> syntax error, unexpected ';', expecting ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('business/pictur...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('business/pictur...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 19:55:24 --> syntax error, unexpected ';', expecting ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('business/pictur...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('business/pictur...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 19:55:39 --> Only variables should be passed by reference
+#0 /Users/mac/development/sites/ocs/app/Views/gallery.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables ...', '/Users/mac/deve...', 23, Array)
+#1 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('gallery', Array, true)
+#4 /Users/mac/development/sites/ocs/app/Controllers/Business.php(146): view('gallery', Array)
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->picture('48444')
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 19:57:07 --> Undefined variable: id
+#0 /Users/mac/development/sites/ocs/app/Controllers/Business.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 162, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->delPicture('48444', '60b203589593f_1...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 20:03:40 --> syntax error, unexpected ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('business/delPic...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('business/delPic...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 20:03:40 --> syntax error, unexpected ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('business/delPic...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('business/delPic...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 20:03:43 --> syntax error, unexpected ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('business/delPic...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('business/delPic...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 20:14:29 --> unlink(/Users/mac/development/sites/ocs/images/business60b2085cb0b5f_1.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/Users/m...', '/Users/mac/deve...', 169, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Business.php(169): unlink('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->delPicture('48444', '60b2085cb0b5f_1...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 20:14:59 --> unlink(/Users/mac/development/sites/ocs/images/business/60b2085cb0b5f_1.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/Users/m...', '/Users/mac/deve...', 169, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Business.php(169): unlink('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Business->delPicture('48444', '60b2085cb0b5f_1...')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 20:53:51 --> Undefined variable: deleteLink
+#0 /Users/mac/development/sites/ocs/app/Views/gallery.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 46, Array)
+#1 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('gallery', Array, true)
+#4 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(850): view('gallery', Array)
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->viewMeettingPicture('15')
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 20:53:56 --> Undefined variable: deleteLink
+#0 /Users/mac/development/sites/ocs/app/Views/gallery.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 46, Array)
+#1 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('gallery', Array, true)
+#4 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(850): view('gallery', Array)
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->viewMeettingPicture('16')
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 20:54:01 --> Undefined variable: deleteLink
+#0 /Users/mac/development/sites/ocs/app/Views/gallery.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 46, Array)
+#1 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('gallery', Array, true)
+#4 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(850): view('gallery', Array)
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->viewMeettingPicture('18')
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 20:54:10 --> Undefined variable: deleteLink
+#0 /Users/mac/development/sites/ocs/app/Views/gallery.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 46, Array)
+#1 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('gallery', Array, true)
+#4 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(850): view('gallery', Array)
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->viewMeettingPicture('15')
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 20:56:19 --> syntax error, unexpected ';', expecting ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('gov/viewMeettin...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('gov/viewMeettin...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 20:56:19 --> syntax error, unexpected ';', expecting ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('gov/viewMeettin...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('gov/viewMeettin...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 20:56:32 --> Undefined variable: deleteLink
+#0 /Users/mac/development/sites/ocs/app/Views/gallery.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 46, Array)
+#1 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('gallery', Array, true)
+#4 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(851): view('gallery', Array)
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->viewMeettingPicture('15')
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 21:05:27 --> move_uploaded_file(/Users/mac/development/sites/ocs/public/../docs/meettingRecord/doc/.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', '/Users/mac/deve...', 164, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(164): move_uploaded_file('/private/var/tm...', '/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:06:06 --> move_uploaded_file(/Users/mac/development/sites/ocs/public/../docs/meettingRecord/doc/.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', '/Users/mac/deve...', 164, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(164): move_uploaded_file('/private/var/tm...', '/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:06:39 --> imagejpeg(/Users/mac/development/sites/ocs/public/../images/meettingRecord/60b24a6f900c0_1.jpg): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagejpeg(/User...', '/Users/mac/deve...', 55, Array)
+#1 /Users/mac/development/sites/ocs/app/Helpers/image_helper.php(55): imagejpeg(Resource id #124, '/Users/mac/deve...', 80)
+#2 /Users/mac/development/sites/ocs/app/Helpers/image_helper.php(85): resize('/private/var/tm...', 2480, 3508, '/Users/mac/deve...')
+#3 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(167): uploadPic('pictures', '/Users/mac/deve...')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 21:07:04 --> Undefined variable: mRecord_id
+#0 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 170, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 21:07:37 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 56, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(170): App\Models\GovModel->getMeettingData('')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:08:31 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 56, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(170): App\Models\GovModel->getMeettingData('')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:09:18 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 56, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(170): App\Models\GovModel->getMeettingData('')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:10:00 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 56, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(170): App\Models\GovModel->getMeettingData('')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:11:30 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 57, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(170): App\Models\GovModel->getMeettingData('')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:11:38 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 57, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(170): App\Models\GovModel->getMeettingData('')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:20:50 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(65): CodeIgniter\Database\BaseBuilder->delete()
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(208): App\Models\GovModel->meettingDelete(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->meettingDelete('19')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:21:40 --> Trying to get property 'pictures' of non-object
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 67, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(208): App\Models\GovModel->meettingDelete(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->meettingDelete('19')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:22:25 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 67, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(208): App\Models\GovModel->meettingDelete(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->meettingDelete('19')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:22:45 --> Trying to get property 'meettingRecord' of non-object
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mac/deve...', 68, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(208): App\Models\GovModel->meettingDelete(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->meettingDelete('18')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:23:01 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 67, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(208): App\Models\GovModel->meettingDelete(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->meettingDelete('18')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:23:05 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 57, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(193): App\Models\GovModel->getMeettingData(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->viewMeettingRecord('19')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:25:24 --> Undefined variable: picture
+#0 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 168, Array)
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->saveMeetting()
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 21:27:57 --> unlink(/Users/mac/development/sites/ocs/images/meettingRecord/): Operation not permitted
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/Users/m...', '/Users/mac/deve...', 74, Array)
+#1 /Users/mac/development/sites/ocs/app/Models/GovModel.php(74): unlink('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(208): App\Models\GovModel->meettingDelete(Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->meettingDelete('20')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 21:35:31 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 57, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(193): App\Models\GovModel->getMeettingData(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->viewMeettingRecord('20')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 21:46:31 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 67, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(208): App\Models\GovModel->meettingDelete(Array)
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->meettingDelete('19')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 22:07:56 --> Undefined offset: 0
+#0 /Users/mac/development/sites/ocs/app/Models/GovModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 57, Array)
+#1 /Users/mac/development/sites/ocs/app/Controllers/Gov.php(836): App\Models\GovModel->getMeettingData('0')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Gov->viewMeettingPicture('0')
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gov))
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 23:07:53 --> syntax error, unexpected ''จำนวน<br>ชั่�' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /Users/mac/development/sites/ocs/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('reportOrg/schoo...')
+#1 /Users/mac/development/sites/ocs/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('reportOrg/schoo...')
+#2 /Users/mac/development/sites/ocs/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 23:13:34 --> Call to undefined function dateThai()
+#0 /Users/mac/development/sites/ocs/system/View/View.php(220): include()
+#1 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('listMou', Array, true)
+#3 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(19): view('listMou', Array)
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->list()
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 23:16:04 --> Undefined index: end_date
+#0 /Users/mac/development/sites/ocs/app/Views/listMou.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 22, Array)
+#1 /Users/mac/development/sites/ocs/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/ocs/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/ocs/system/Common.php(1250): CodeIgniter\View\View->render('listMou', Array, true)
+#4 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(19): view('listMou', Array)
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->list()
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 23:36:44 --> You must set the database table to be used with your query.
+#0 /Users/mac/development/sites/ocs/system/Model.php(587): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Users/mac/development/sites/ocs/system/Model.php(783): CodeIgniter\Model->builder()
+#2 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(428): CodeIgniter\Model->__call('getMouData', Array)
+#3 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewMOU('9651')
+#4 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#5 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 23:37:11 --> preg_match(): Compilation failed: regular expression is too large at offset 43080
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'business_id in ...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(428): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewMOU('9651')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 23:38:39 --> preg_match(): Compilation failed: regular expression is too large at offset 43080
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'business_id in ...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(428): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewMOU('9651')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 23:38:40 --> preg_match(): Compilation failed: regular expression is too large at offset 43080
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'business_id in ...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(428): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewMOU('9651')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 23:40:03 --> preg_match(): Compilation failed: regular expression is too large at offset 43080
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'business_id in ...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(428): App\Models\MouModel->getMou(Array)
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewMOU('9651')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 23:42:39 --> preg_match(): Compilation failed: regular expression is too large at offset 43080
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/Users/mac/deve...', 3113, Array)
+#1 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3113): preg_match('/^(\\(?)(.*)( in...', 'business_id in ...', NULL)
+#2 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(3035): CodeIgniter\Database\BaseBuilder->compileWhereHaving('QBWhere')
+#3 /Users/mac/development/sites/ocs/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseBuilder->compileSelect()
+#4 /Users/mac/development/sites/ocs/app/Models/MouModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/ocs/app/Controllers/Mou.php(428): App\Models\MouModel->getMou('9651')
+#6 /Users/mac/development/sites/ocs/system/CodeIgniter.php(948): App\Controllers\Mou->viewMOU('9651')
+#7 /Users/mac/development/sites/ocs/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mou))
+#8 /Users/mac/development/sites/ocs/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/ocs/public/index.php(62): CodeIgniter\CodeIgniter->run()
+#10 {main}

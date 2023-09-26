@@ -1,0 +1,279 @@
+CRITICAL - 2021-06-06 00:02:04 --> Undefined index: mission_id
+#0 /Users/mac/development/sites/oes/app/Controllers/Mission.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 153, Array)
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Mission->indicatorSave()
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 00:04:10 --> Undefined variable: mission_id
+#0 /Users/mac/development/sites/oes/app/Views/indicatorDetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 14, Array)
+#1 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('indicatorDetail', Array, true)
+#4 /Users/mac/development/sites/oes/app/Controllers/Mission.php(131): view('indicatorDetail')
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Mission->indicatorAdd('4')
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-06 00:04:12 --> Undefined variable: mission_id
+#0 /Users/mac/development/sites/oes/app/Views/indicatorDetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 14, Array)
+#1 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('indicatorDetail', Array, true)
+#4 /Users/mac/development/sites/oes/app/Controllers/Mission.php(131): view('indicatorDetail')
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Mission->indicatorAdd('4')
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-06 00:09:17 --> Undefined variable: mission_id
+#0 /Users/mac/development/sites/oes/app/Views/indicatorList.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 12, Array)
+#1 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('indicatorList', Array, true)
+#4 /Users/mac/development/sites/oes/app/Controllers/Mission.php(118): view('indicatorList', Array)
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Mission->indicatorList('4')
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-06 00:35:09 --> syntax error, unexpected ';', expecting ')'
+#0 /Users/mac/development/sites/oes/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('mission/indicat...')
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('mission/indicat...')
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 00:35:19 --> Too few arguments to function App\Controllers\Mission::indicatorEdit(), 1 passed in /Users/mac/development/sites/oes/system/CodeIgniter.php on line 948 and exactly 2 expected
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Mission->indicatorEdit('5')
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-06 00:47:46 --> Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+#0 /Users/mac/development/sites/oes/system/View/View.php(220): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Unparenthesized...', '/Users/mac/deve...', 25, Array)
+#1 /Users/mac/development/sites/oes/system/View/View.php(220): include()
+#2 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('indicatorDetail', Array, true)
+#4 /Users/mac/development/sites/oes/app/Controllers/Mission.php(136): view('indicatorDetail', Array)
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Mission->indicatorAdd('4', '1')
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-06 01:10:40 --> syntax error, unexpected ')'
+#0 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('indicatorList', Array, true)
+#2 /Users/mac/development/sites/oes/app/Controllers/Mission.php(120): view('indicatorList', Array)
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Mission->indicatorList('4', '6')
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mission))
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-06-06 02:18:25 --> Table 'oes.oes_govdata' doesn't exist
+CRITICAL - 2021-06-06 02:18:25 --> Table 'oes.oes_govdata' doesn't exist
+#0 /Users/mac/development/sites/oes/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/oes/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/oes/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/oes/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/oes/app/Models/OrgModel.php(107): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/oes/app/Helpers/org_helper.php(9): App\Models\OrgModel->getGov()
+#6 /Users/mac/development/sites/oes/app/Views/schoolDetail.php(18): org_name('1310096201')
+#7 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#8 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('schoolDetail', Array, true)
+#10 /Users/mac/development/sites/oes/app/Controllers/School.php(44): view('schoolDetail', Array)
+#11 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\School->detail()
+#12 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#13 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2021-06-06 02:21:00 --> You must set the database table to be used with your query.
+#0 /Users/mac/development/sites/oes/system/Model.php(587): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Users/mac/development/sites/oes/system/Model.php(783): CodeIgniter\Model->builder()
+#2 /Users/mac/development/sites/oes/app/Helpers/org_helper.php(9): CodeIgniter\Model->__call('getGov', Array)
+#3 /Users/mac/development/sites/oes/app/Views/schoolDetail.php(18): org_name('1310096201')
+#4 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#5 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('schoolDetail', Array, true)
+#7 /Users/mac/development/sites/oes/app/Controllers/School.php(44): view('schoolDetail', Array)
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\School->detail()
+#9 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#10 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-06 02:27:19 --> You must set the database table to be used with your query.
+#0 /Users/mac/development/sites/oes/system/Model.php(587): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Users/mac/development/sites/oes/system/Model.php(783): CodeIgniter\Model->builder()
+#2 /Users/mac/development/sites/oes/app/Controllers/Home.php(20): CodeIgniter\Model->__call('getGov', Array)
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Home->dashboard()
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-06-06 02:28:12 --> Table 'oes.oes_mou' doesn't exist
+CRITICAL - 2021-06-06 02:28:12 --> Table 'oes.oes_mou' doesn't exist
+#0 /Users/mac/development/sites/oes/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/mac/development/sites/oes/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mac/development/sites/oes/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mac/development/sites/oes/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mac/development/sites/oes/app/Models/MouModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mac/development/sites/oes/app/Controllers/Home.php(32): App\Models\MouModel->getMouCount()
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Home->dashboard()
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-06 02:32:17 --> You must set the database table to be used with your query.
+#0 /Users/mac/development/sites/oes/system/Model.php(587): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Users/mac/development/sites/oes/system/Model.php(783): CodeIgniter\Model->builder()
+#2 /Users/mac/development/sites/oes/app/Controllers/Admin.php(56): CodeIgniter\Model->__call('getGov', Array)
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Admin->editUser('6')
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-06 02:33:17 --> Undefined variable: govs
+#0 /Users/mac/development/sites/oes/app/Views/editUser.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 15, Array)
+#1 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#2 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('editUser', Array, true)
+#4 /Users/mac/development/sites/oes/app/Controllers/Admin.php(66): view('editUser', Array)
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Admin->editUser('6')
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-06 02:35:51 --> Undefined index: user
+#0 /Users/mac/development/sites/oes/app/Helpers/user_helper.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mac/deve...', 17, Array)
+#1 /Users/mac/development/sites/oes/app/Views/_main.php(109): user_type('user')
+#2 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#3 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('_main', Array, true)
+#5 /Users/mac/development/sites/oes/app/Controllers/Home.php(22): view('_main', Array)
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Home->dashboard()
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-06 02:36:52 --> You must set the database table to be used with your query.
+#0 /Users/mac/development/sites/oes/system/Model.php(587): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Users/mac/development/sites/oes/system/Model.php(783): CodeIgniter\Model->builder()
+#2 /Users/mac/development/sites/oes/app/Controllers/User.php(136): CodeIgniter\Model->__call('getGov', Array)
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\User->register()
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-06 04:00:23 --> syntax error, unexpected ''def'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('evaluateSubmitF...', Array, true)
+#2 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(211): view('evaluateSubmitF...', Array)
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submitForm('4', '16')
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-06 21:51:57 --> syntax error, unexpected '}'
+#0 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('assessmentItem', Array, true)
+#2 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(120): view('assessmentItem', Array)
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->assessmentItem('4', '1')
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#5 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-06 22:19:32 --> Call to undefined function App\Controllers\current_user()
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->picture('14')
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-06 22:19:43 --> Call to undefined function App\Controllers\current_user()
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->picture('14')
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-06 22:20:41 --> Undefined offset: 0
+#0 /Users/mac/development/sites/oes/app/Models/EvaluateModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mac/deve...', 28, Array)
+#1 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(260): App\Models\EvaluateModel->getSubmissionData(Array)
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->picture('14')
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-06 22:21:21 --> syntax error, unexpected '$result' (T_VARIABLE), expecting ';'
+#0 /Users/mac/development/sites/oes/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/mac/deve...')
+#1 /Users/mac/development/sites/oes/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Eval...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Eval...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Eval...')
+#4 /Users/mac/development/sites/oes/system/Config/Factories.php(149): class_exists('App\\Models\\Eval...')
+#5 /Users/mac/development/sites/oes/system/Config/Factories.php(115): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Models\\Eval...')
+#6 /Users/mac/development/sites/oes/system/Common.php(883): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(255): model('App\\Models\\Eval...')
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->picture('14')
+#9 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#10 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-06 22:21:33 --> Undefined variable: pictures
+#0 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 269, Array)
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->picture('14')
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 22:34:47 --> explode() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', '/Users/mac/deve...', 296, Array)
+#1 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(296): explode(',', Object(stdClass))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->delPicture('14', '60bc26e40d8d4_2...')
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#4 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-06 22:35:03 --> Undefined variable: mouModel
+#0 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mac/deve...', 310, Array)
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->delPicture('14', '60bc26e40d8d4_2...')
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 22:43:26 --> syntax error, unexpected '$submissionData' (T_VARIABLE)
+#0 /Users/mac/development/sites/oes/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('evaluate/pictur...')
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('evaluate/pictur...')
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 22:44:41 --> Call to undefined function App\Controllers\current_user()
+#0 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submission()
+#1 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#2 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-06 22:51:47 --> Undefined property: stdClass::$school_id
+#0 /Users/mac/development/sites/oes/app/Helpers/user_helper.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Users/mac/deve...', 5, Array)
+#1 /Users/mac/development/sites/oes/app/Views/evaluateSubmitForm.php(8): current_user('school_id')
+#2 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#3 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('evaluateSubmitF...', Array, true)
+#5 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(219): view('evaluateSubmitF...', Array)
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submitForm('4', '14')
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-06 22:53:58 --> Undefined property: stdClass::$school_id
+#0 /Users/mac/development/sites/oes/app/Helpers/user_helper.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Users/mac/deve...', 5, Array)
+#1 /Users/mac/development/sites/oes/app/Views/evaluateSubmitForm.php(8): current_user('school_id')
+#2 /Users/mac/development/sites/oes/system/View/View.php(220): include('/Users/mac/deve...')
+#3 /Users/mac/development/sites/oes/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Users/mac/development/sites/oes/system/Common.php(1250): CodeIgniter\View\View->render('evaluateSubmitF...', Array, true)
+#5 /Users/mac/development/sites/oes/app/Controllers/Evaluate.php(219): view('evaluateSubmitF...', Array)
+#6 /Users/mac/development/sites/oes/system/CodeIgniter.php(948): App\Controllers\Evaluate->submitForm('4', '14')
+#7 /Users/mac/development/sites/oes/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluate))
+#8 /Users/mac/development/sites/oes/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/mac/development/sites/oes/public/index.php(59): CodeIgniter\CodeIgniter->run()
+#10 {main}

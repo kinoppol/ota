@@ -1,0 +1,77 @@
+<?php
+helper('form');
+    $data=array(
+        array(
+           'label'=>'ชื่อตัวบ่งชี้/ชื่อเกณฑ์',
+           'type'=>'text',
+           'id'=>'subject',
+           'def'=>isset($indicator->subject)?$indicator->subject:'',
+           'required'=>true,
+            ),  
+         array(
+            'type'=>'hidden',
+            'id'=>'mission_id',
+            'def'=>isset($indicator->mission_id)?$indicator->mission_id:$mission_id,
+            ),
+         array(
+            'type'=>'hidden',
+            'id'=>'id',
+            'def'=>isset($indicator->id)?$indicator->id:'',
+            'disabled'=>isset($indicator->id)?false:true,
+            ),
+         array(
+            'type'=>'hidden',
+            'id'=>'parent_id',
+            'def'=>isset($indicator->parent_id)?$indicator->parent_id:(isset($parent_id)?$parent_id:''),
+            'disabled'=>isset($indicator->parent_id)?false:(isset($parent_id)?false:true),
+            ),
+        array(
+            'label'=>'ลักษณะการให้คะแนน',
+            'type'=>'select',
+            'id'=>'score_type',
+            'items'=>array(
+                'null'=>'เป็นหัวข้อ',
+                'number'=>'ค่าคะแนน (แบบระบุตัวเลข)',
+                'check'=>'ช่องทำเครื่องหมาย (ช่องทำเครื่องหมายถูกเลือกได้หลายตัว)',   
+                'select'=>'หลายตัวเลือก (มีหลายตัวเลือกแต่เลือกได้เพียงตัวเลือกเดียว)',
+            ),
+            'def'=>isset($indicator->score_type)?$indicator->score_type:false,
+            'required'=>true,
+        ),
+        array(
+            'label'=>'คะแนนเต็ม',
+            'type'=>'number',
+            'id'=>'max_point',
+            'min'=>'0',
+            'def'=>isset($indicator->max_point)?$indicator->max_point:0,
+            'required'=>true,
+        ),
+        array(
+            'label'=>'คะแนนต่ำสุด',
+            'type'=>'number',
+            'id'=>'min_point',
+            'min'=>'0',
+            'def'=>isset($indicator->min_point)?$indicator->min_point:0,
+        ),
+        array(
+            'label'=>'ตัวเลือก',
+            'type'=>'textarea',
+            'id'=>'item',
+            'def'=>isset($indicator->item)?$indicator->item:'',
+            'placeholder'=>'ระบุเฉพาะเมื่อเลือกลักษณะแบบหลายตัวเลือก',
+        ),
+         array(
+             'label'=>'บันทึกข้อมูล',
+             'type'=>'submit',
+         ),
+    );
+
+    $form=array(
+        'formName'=>'ข้อมูลตัวบ่งชี้',
+        'inputs'=>$data,
+        'action'=>site_url('public/mission/indicatorSave'),
+        'method'=>'post',
+        'enctype'=>'multipart/form-data',
+    );
+    
+    print genForm($form);
