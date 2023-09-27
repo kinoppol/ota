@@ -1,7 +1,7 @@
 <?php
   class my_ZipArchive extends ZipArchive
   {
-    public function extractSubdirTo($destination, $subdir)
+    public function extractSubdirTo($destination, $subdir,$exception=array())
     {
       $errors = array();
 
@@ -46,8 +46,12 @@
               }
 
               // New file
+							if(is_numeric(array_search($relativePath,$exception))){
+								
+							}else{
               if (@file_put_contents($destination . $relativePath, $this->getFromIndex($i)) === false)
                 $errors[$i] = $filename;
+							}
             }
           }
         }
