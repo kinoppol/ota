@@ -6,11 +6,14 @@
         'admin'=>'#FFAAFF',
         'school'=>'#AAFFAA',
     );
-    define('GOOGLE_APPID','863569354219-2aal7nslu6i3s8bm5v5797k1cbjuriqo.apps.googleusercontent.com');
+    //define('GOOGLE_APPID','863569354219-2aal7nslu6i3s8bm5v5797k1cbjuriqo.apps.googleusercontent.com');
+    
+    define('GOOGLE_APPID','620231865129-q7kvp1260ccavm43knd4603ectdqgvtb.apps.googleusercontent.com');
+    
 ?>
 
 <meta name="google-signin-scope" content="profile email">
-		<meta name="google-signin-client_id" content="<?php PRINT GOOGLE_APPID ?>">
+		<meta name="google-signin-client_id" content="<?php print GOOGLE_APPID; ?>">
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <body class="login-page" style="font-family: 'Kanit', sans-serif; background-color: <?php print $bgColor[$userType]; ?>;">
                <div class="row clearfix">
